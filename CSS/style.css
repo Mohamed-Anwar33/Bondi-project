@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 :root {
   --dark-color: #19283f;
   --green-color: #33d1cc;
@@ -8,7 +12,7 @@
 
 body {
   font-family: "Roboto", serif;
-  height: 10000px;
+  /* height: 10000px; */
 }
 
 /* start Navbar */
@@ -137,3 +141,64 @@ body {
 }
 
 /*end our work */
+
+/* start stuff */
+.stuff .description {
+  max-width: 500px;
+}
+/* end stuff */
+
+/* start team */
+.our-team {
+  background-color: var(--section-color);
+}
+.our-team h2 {
+  color: var(--yellow-color);
+}
+/* end team */
+
+/* start project */
+.project {
+  background-color: var(--dark-color);
+}
+/* end project */
+
+/* start form */
+.subscribe {
+  background-color: var(--yellow-color);
+}
+.subscribe input[type="text"] {
+  border: none;
+  border-bottom: 1px solid white;
+}
+.subscribe input[type="text"]:focus {
+  outline: none;
+}
+
+.subscribe ::placeholder {
+  color: white;
+}
+
+/* end form */
+
+/* start footer */
+.footer {
+  background-color: var(--dark-color);
+}
+.grap {
+  color: var(--green-color);
+}
+
+.inc {
+  color: var(--yellow-color);
+}
+.footer .contact ul svg {
+  width: 20px;
+  height: 20px;
+}
+
+.footer ul li a {
+  text-decoration: none;
+  color: #ffffff80;
+}
+/* end footer */
